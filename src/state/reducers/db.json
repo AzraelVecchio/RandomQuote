@@ -1,0 +1,26 @@
+
+[
+    {"name": "Vegeta",
+    "phrase": "I... Will not be distracted from this anymore... I won't. It'll take more than head games to stop me. You may have invaded my mind and my body, but there is something a sayan always keep: IT'S PRIDE! ",
+    "image": "./files/images/majin-vegeta.png",
+    "background": "https://www.youtube.com/embed/ZT7GO63dDcc?rel=0&controls=0&playlist=ZT7GO63dDcc&loop=1&autoplay=1&mute=1&enablejsapi=1",
+    "audio": "./files/audios/pride.mp3",
+    "color": "yellow"
+},
+
+{"name": "Goku",
+    "phrase": "Go... Even further beyond!!",
+    "image": "./files/images/gokussj3.png",
+    "background": "https://www.youtube.com/embed/hyNu5i_6lKA?rel=0&controls=0&playlist=hyNu5i_6lKA&loop=1&autoplay=1&mute=1&enablejsapi=1",
+    "audio": "./files/audios/beyond.mp3",
+    "color": "yellow"
+},
+{"name": "Vegeto",
+    "phrase": "Would you look at me? I'm setting records.",
+    "image": "./files/images/vegitoblue.png",
+    "background": "https://www.youtube.com/embed/vHoLFYApkz8?rel=0&controls=0&playlist=vHoLFYApkz8&loop=1&autoplay=1&mute=1&enablejsapi=1",
+    "audio": "./files/audios/settingrecords.mp3",
+    "color": "blue"
+}
+
+]

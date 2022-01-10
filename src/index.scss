@@ -1,0 +1,40 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$position-values: (
+  0: 0,
+  50: 50%,
+  70: 70%,
+  100: 100%
+);
+
+$container-max-widths: (
+  sm: 540px
+);
+
+@import "bootstrap/scss/utilities";
+
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "height-custom": (
+      property: height,
+      class: hc,
+      responsive: true,
+      values: (
+        3: 300px,
+        fhv:100vh
+      ),
+    ), 
+  "border-color": (
+      property: border-color,
+      class: border,
+      values: map-merge($theme-colors, ("white": $white))
+    )
+  )
+);
+
+
+@import "~bootstrap/scss/bootstrap";
+
